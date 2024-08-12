@@ -1,0 +1,60 @@
+/* Payment.css */
+
+.payment-banner {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+  }
+  
+  .card-content {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .product-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .product-description {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .product-price {
+    font-size: 1.25rem;
+    color: #000;
+  }
+  
+  .product-size, .product-quantity {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  .payment-form {
+    margin-top: 20px;
+  }
+  
+  .payment-form .MuiTextField-root {
+    margin-top: 10px;
+  }
+  
+  button {
+    margin-top: 20px;
+  }
+  

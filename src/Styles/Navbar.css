@@ -1,0 +1,86 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  height: 80px;
+}
+
+.navbar-logo img {
+  height: 90px; /* Adjusted for better alignment */
+  width: 100%;
+  margin-top: 10px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.navbar-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar-links a:hover::after {
+  width: 100%;
+}
+
+.navbar-actions button {
+  background-color: #f44336;
+  color: #95a1a7;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.navbar-icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.navbar-icons .MuiSvgIcon-root {
+  font-size: 36px; /* Adjusted for better size */
+}
+
+.navbar-actions, .navbar-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.drawer-paper {
+  width: 250px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.2); /*Adds blur effect and transparenc */
+}
+
+.drawer-content .MuiListItemText-primary {
+  position: relative;
+}
+
+.drawer-content .MuiListItemText-primary::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #000;
+  transition: width 0.3s;
+}
+
+.drawer-content .MuiListItem-root:hover .MuiListItemText-primary::after {
+  width: 100%;
+}
+
+.drawer-content .MuiDivider-root {
+  background-color: rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,52 @@
+/* Category.css */
+
+.category-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.category-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.categories .category-wom,
+.categories .category-men,
+.categories .category-kid {
+    flex: 1;
+    max-width: 30%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.categories img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.categories img:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .categories {
+        flex-direction: column;
+    }
+    
+    .categories .category-wom,
+    .categories .category-men,
+    .categories .category-kid {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+}

@@ -1,0 +1,45 @@
+.Casual-banner {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Space below the banner */
+  }
+  
+  .banner-image {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover;
+  }
+  
+  .product-card {
+    width: 80%; /* Adjust the width of the cards */
+    transition: transform 0.2s;
+    margin-bottom: 20px; /* Space below each card */
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-img {
+    width: 100%; /* Ensure the image takes up the full width of the card */
+    height: 250px; /* Adjust the height of the product images */
+    object-fit: cover;
+  }
+  
+  .product-title {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .product-description {
+    color: gray;
+  }
+  
+  .product-price {
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+  }
+  

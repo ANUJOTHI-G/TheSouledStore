@@ -1,0 +1,40 @@
+.topse {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows wrapping of the cards */
+    gap: 20px; /* Adds space between the cards */
+  }
+  
+  .product-card {
+    width: 80%; /* Adjust the width of the cards */
+    transition: transform 0.2s;
+    margin-bottom: 20px; /* Reduce the space between product cards */
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .topse-img {
+    width: 100%; /* Ensure the image takes up the full width of the card */
+    height: 250px; /* Adjust the height of the product images */
+    object-fit: cover;
+  }
+  
+  .topse-title {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .topse-description {
+    color: gray;
+  }
+  
+  .topse-price {
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+  }
+  
